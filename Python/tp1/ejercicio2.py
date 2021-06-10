@@ -1,0 +1,5 @@
+preciodol = input("Ingrese el valor en dólares de la máquina:" )
+precio = float(preciodol)
+cotizaciondol = input("Ingrese la cotización del dolar:" )
+valor_dolar = float(cotizaciondol)
+print ("El precio en pesos es:", precio * valor_dolar, "ARS")
